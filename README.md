@@ -1,12 +1,32 @@
-# React + Vite
+Fake Store API E-Commerce App
+Overview
+This project is a simple e-commerce application that fetches product data from the Fake Store API and displays it in a user-friendly interface. Users can browse products, add them to their cart, and manage their cart items. The app is built with a responsive design to ensure it works seamlessly on both desktop and mobile devices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Product Listing: Fetches and displays a list of products from the Fake Store API. Each product includes:
 
-Currently, two official plugins are available:
+Product image
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Title
 
-## Expanding the ESLint configuration
+Price
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+"Add to Cart" button
+
+Cart Management:
+
+Add products to the cart.
+
+Display an alert if a product is already in the cart.
+
+Show the current cart item count in the Navbar.
+
+Open a modal to view all cart items when the "Cart" button is clicked.
+
+Remove products from the cart using a "Remove from Cart" button in the modal.
+
+Responsive Design: The layout adapts to different screen sizes for optimal viewing on both desktop and mobile devices.
+
+State Management: Uses props to pass data (product details, cart state, etc.) between components.
+
+Clean and Readable Code: The code is well-documented and organized for easy understanding and maintenance.
