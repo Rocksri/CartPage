@@ -1,5 +1,7 @@
 Fake Store API E-Commerce App
+
 Overview
+
 This project is a simple e-commerce application that fetches product data from the Fake Store API and displays it in a user-friendly interface. Users can browse products, add them to their cart, and manage their cart items. The app is built with a responsive design to ensure it works seamlessly on both desktop and mobile devices.
 
 Features
